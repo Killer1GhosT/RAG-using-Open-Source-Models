@@ -16,3 +16,5 @@ Reranker: Improves answer quality using FlashRank (ms-marco-MiniLM-L-12-v2) to r
 LLM: Uses Meta LLaMA 3 8B Instruct (Q8_0.gguf) via llama-cpp-python for final response generation — fully local. 
 
 Context Fusion: FAISS retrieval, reranks the results, and feeds the best context + Prompt (in-code) + User Prompt to the LLM.
+
+**Mistakenly added working to all the files - IGNORE**
